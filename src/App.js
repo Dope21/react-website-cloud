@@ -1,11 +1,13 @@
 import "./assets/style/App.css";
-import Header from "./assets/components/Header";
+import Navbar from "./components/Navbar";
 
 function App() {
   return (
-    <main className="main">
-      <Header />
-    </main>
+    <>
+      <main className="main">
+        <Navbar />
+      </main>
+    </>
   );
 }
 
