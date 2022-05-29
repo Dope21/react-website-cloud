@@ -2,6 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
 html,
 body {
   margin: 0;
@@ -15,6 +17,23 @@ a {
 
 *{
   box-sizing: border-box;
+}
+
+@layer base{
+
+  .nav__main {
+    @apply p-4 cursor-pointer hover:text-violet-600 transition-all
+  }
+
+  .nav__sub {
+    @apply p-4 cursor-pointer hover:bg-violet-600 hover:text-white rounded-md transition-all
+  }
+
+  button {
+    @apply text-white border bg-violet-600 border-violet-600 transition-all
+    hover:bg-transparent hover:text-violet-600 rounded-md
+  }
+
 }
 
 
