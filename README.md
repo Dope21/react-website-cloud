@@ -1,6 +1,6 @@
 # React-Website-Could
 
-Responsive react website with Tailwind CSS
+Responsive React website with Tailwind CSS
 
 
 ## Stack
