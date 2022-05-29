@@ -31,7 +31,7 @@ function Navbar() {
                   </div>
               </div>
 
-              <ul className={ nav ? 'md:hidden absolute left-0 bg-white w-full px-8 transition-all' : 'md:hidden absolute -left-full transition-all'}>
+              <ul className={ nav ? 'md:hidden absolute left-0 bg-white w-full h-screen px-8 transition-all' : 'md:hidden absolute -left-full transition-all'}>
                 <li className='nav__sub'><Link onClick={toggleNav} className='w-full' to='hero' smooth={true} duration={500}>Home</Link></li>
                 <li className='nav__sub'><Link onClick={toggleNav} className='w-full' to='about' smooth={true} duration={500} offset={-200}>About</Link></li>
                 <li className='nav__sub'><Link onClick={toggleNav} className='w-full' to='support' smooth={true} duration={500} offset={-50}>Support</Link></li>
