@@ -19,4 +19,4 @@ by the makers of Tailwind CSS.
 
 ![Hero-Section](public/design/hero.png)
 ![Full-Desing](public/design/full.png)
-![Mobile-Desgin](public/design/mobile.png)
+![Mobile-Design](public/design/mobile.png)
