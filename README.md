@@ -2,7 +2,7 @@
 
 Responsive React website with Tailwind CSS
 
-## Live Demo [https://thanasak-demo-cloud.netlify.app/](https://thanasak-demo-cloud.netlify.app/)
+## [Live Demo](https://thanasak-demo-cloud.netlify.app/)
 
 ## Stack
 - [React.js](https://reactjs.org/) - A JavaScript library for building user interfaces.
